@@ -1,0 +1,59 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class App {
++main()
+---
++start()
+
+}
+
+class ToDoList{
++main();
+----
++addButton();
+----
++newList();
+----
++Item();
+----
++Status();
+----
++SaveList();
+----
++LoadList();
+----
++editTitle();
+----
++editDescription();
+----
++editDueDate();
+----
+}
+
+class ListOfToDoLists{
++main();
+Description: String
+DueDate: Date
+Status: String
+Name: String
+
+----
++arrayOfToDoList();
+----
++DisplayToDoList();
+----
++DeleteToDoList();
+----
++AddToDoList();
+----
++DisplayToDoList();
+----
++SaveList();
+----
+}
+
+App <|-- ToDoList
+ToDoList<|-- ListOfToDoLists
+
+@enduml
