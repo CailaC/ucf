@@ -4,13 +4,13 @@ import junit.framework.TestCase;
 
 public class ToDoListTest extends TestCase {
 
-    public void testMain() {
-    }
 
     public void testAddButton() {
+        //Will compare button display to expected button display
     }
 
     public void testNewList() {
+        //Will compare if the expected outcome is one more than it should be
     }
 
     public void testItem() {
@@ -39,11 +39,17 @@ public class ToDoListTest extends TestCase {
     }
 
     public void testEditTitle() {
+        //Will compare old Title to new description to see if they are different
+        //if different test is passed
     }
 
     public void testEditDescription() {
+        //Will compare old description to new description to see if they are different
+        //if different test is passed
     }
 
     public void testEditDueDate() {
+        //Will compare old DueDate to new description to see if they are different
+        //if different test is passed
     }
 }
